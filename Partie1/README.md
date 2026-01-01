@@ -1,4 +1,4 @@
- 🐳 TP Docker 1
+# 🐳 TP Docker 1
 
 Ce TP a pour objectif de comprendre progressivement comment fonctionne Docker :
 - lancement d’un conteneur Apache/PHP et création d'une page web
