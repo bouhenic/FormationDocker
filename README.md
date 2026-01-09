@@ -75,17 +75,6 @@ Dossier : `Partie1/`
 - Utiliser un volume Docker
 - Comprendre la différence entre volume et bind mount
 
-### Compétences travaillées
-- Ligne de commande
-- Architecture client / serveur
-- Virtualisation légère
-- Persistance des données
-
-### Critères de réussite
-✔ Le serveur web est accessible via un navigateur  
-✔ Les modifications de fichiers sont visibles sans rebuild  
-✔ L’étudiant sait expliquer le rôle d’un volume  
-
 ---
 
 ## Partie 2 — Création d’images avec Dockerfile
@@ -99,18 +88,6 @@ Dossier : `Partie 2/`
 - Copier des fichiers dans une image
 - Rebuilder une image après modification
 
-### Compétences travaillées
-- Écriture et lecture de Dockerfile
-- Notion de couches (layers)
-- Reproductibilité d’un environnement
-- Automatisation du déploiement
-
-### Critères de réussite
-✔ L’image se build sans erreur  
-✔ Le conteneur utilise bien l’image créée  
-✔ La page PHP personnalisée s’affiche  
-✔ L’étudiant sait expliquer chaque instruction du Dockerfile  
-
 ---
 
 ## Partie 3 — Orchestration avec docker-compose
@@ -123,18 +100,6 @@ Dossier : `Partie 3/`
 - Mettre en place une base MySQL
 - Gérer la persistance des données
 - Comprendre l’impact de `down` et `down --volumes`
-
-### Compétences travaillées
-- Architecture applicative multi-tiers
-- Réseau entre conteneurs
-- Variables d’environnement
-- Diagnostic applicatif
-
-### Critères de réussite
-✔ L’application PHP communique avec MySQL  
-✔ Les données persistent après redémarrage  
-✔ L’étudiant sait expliquer l’architecture complète  
-✔ L’impact de la suppression des volumes est compris  
 
 ---
 
@@ -154,48 +119,5 @@ Chaque partie peut être utilisée :
 - comme TP clé en main
 - comme base à adapter ou enrichir
 
----
-
-## Modalités pédagogiques possibles
-
-- TP guidé pas à pas
-- Travail en binôme
-- Classe inversée
-- Démonstration + autonomie progressive
-
-### Évaluation possible
-- QCM de compréhension
-- Schéma d’architecture Docker annoté
-- Questions orales :
-  - image vs conteneur
-  - volume vs bind mount
-  - Dockerfile vs docker-compose
-
----
-
-## Support complémentaire
-
-**TP_interactif.pdf**
-
-Utilisable :
-- en autonomie
-- en formation continue
-- comme support de remédiation
-
----
-
-## Remarque pédagogique
-
-Ce dépôt est volontairement :
-
-- simple
-- progressif
-- centré sur la compréhension
-
-Il constitue une **base solide** avant d’aborder :
-- Docker multi-stage
-- sécurité des conteneurs
-- CI/CD
-- Kubernetes
 
 
