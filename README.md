@@ -66,7 +66,7 @@ Chaque dossier contient un `README.md` décrivant le TP associé.
 
 ## Partie 1 — Découverte de Docker
 
-📁 Dossier : `Partie1/`
+Dossier : `Partie1/`
 
 ### Objectifs pédagogiques
 - Comprendre ce qu’est un conteneur Docker
@@ -115,7 +115,7 @@ Dossier : `Partie 2/`
 
 ## Partie 3 — Orchestration avec docker-compose
 
-📁 Dossier : `Partie 3/`
+Dossier : `Partie 3/`
 
 ### Objectifs pédagogiques
 - Déployer plusieurs services avec docker-compose
